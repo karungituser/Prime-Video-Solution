@@ -1,0 +1,24 @@
+.video-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+.prime-image {
+  width: 100%;
+}
+.movie-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 26px;
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+.movies-container {
+  width: 90%;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .movies-container {
+    max-width: 1110px;
+  }
+}
